@@ -17,6 +17,7 @@
                 transition: 0.85s;
                 user-select: none;
                 -webkit-user-select: none;
+                
             }
             #linkTO-2024:hover {
                 background-color: rgb(187, 99, 17);
@@ -32,6 +33,11 @@
                     font-weight: 700;
                     font-size: 30px;
                     
+                }
+            }
+            #direct2024 {
+                @media screen and (max-width: 700px) {
+                    font-size: 17px;
                 }
             }
             #LXII img {
@@ -76,6 +82,9 @@
                 font-family: karla;
                 border-radius: 15px;
                 transition: background-color 1.5s;
+                @media screen and (max-width: 700px) {
+                    font-size: 8px;
+                }
             }
             #boterham:hover {
                 background-color: rgb(225, 136, 3);
@@ -117,7 +126,7 @@
         <br>
         <br>
         <div id="LXII">
-            <h1 style="font-family: Montserrat">Volume LXII | 2024 <span id="linkTO-2024">Visit Page -></span></h1>
+            <h1 id="direct2024" style="font-family: Montserrat">Volume LXII | 2024 <span id="linkTO-2024">Visit Page -></span></h1>
             <h3><span>Art</span> in its purest form, draws from the human experience. The human experience of
                 our high school artists and writers represents the culmination of growth. Every piece of art,
                 from poem to photograph to painting, comes from a teenager who is either growing up too fast
