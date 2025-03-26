@@ -19,7 +19,7 @@ document.getElementById("navbar").innerHTML = `
             </h2>
 `;
 document.getElementById("mobileNav").innerHTML = `
-    <h2 id="linkTO-awards2">Awards <span class="material-symbols-outlined" style="font-size: 20px;">
+            <h2 id="linkTO-awards2">Awards <span class="material-symbols-outlined" style="font-size: 20px;">
                 license
                 </span>
             </h2>
