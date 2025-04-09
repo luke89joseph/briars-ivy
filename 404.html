@@ -35,10 +35,15 @@
         }
     </style>
     <link rel="stylesheet" href="styles.css">
-</html>
 <body>
     <h1>404</h1>
     <h2>You are on the Briars and Ivy website</h2>
     <br>
-    <h2 class="lien">Return home</h2>
+    <h2 id="toHome" class="lien">Return home</h2>
 </body>
+<script>
+    document.getElementById("toHome").onclick = function() {
+        window.location.href="toHome";
+    }
+</script>
+</html>
