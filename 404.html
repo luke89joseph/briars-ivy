@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <title>404 | Briars And Ivy</title>
-    <style>
-        h3 {
-            font-family: Montserrat;
-            text-align: center;
-            padding-left: 15%;
-            padding-right: 15%;
-        }
-        h2 {
-            text-align: center;
-            font-family: Playwrite DK Loopet, Cursive;
-        }
-        h1 {
-            font-size: 100px;
-            margin-bottom: 5px;
-        }
-        h2.lien {
-            font-size: 25px;
-            margin-top: 25px;
-            margin-bottom: 37.5px;
-            font-family: Montserrat;
-            color: white;
-            margin-right: 15px;
-            background-color: rgb(87, 87, 154);
-            padding: 10px;
-            border-radius: 10px;
-            transition: background-color 0.75s;
-            user-select: none;
-            -webkit-user-select: none;
-        }
-        h2.lien:hover {
-            background-color: rgb(3, 3, 78);
-        }
-    </style>
-    <link rel="stylesheet" href="styles.css">
-<body>
-    <h1>404</h1>
-    <h2>You are on the Briars and Ivy website</h2>
-    <br>
-    <h2 id="toHome" class="lien">Return home</h2>
-</body>
-<script>
-    document.getElementById("toHome").onclick = function() {
-        window.location.href="toHome";
-    }
-</script>
+    <head>
+        <title>404 | Briars And Ivy</title>
+        <style>
+            h3 {
+                font-family: Montserrat;
+                text-align: center;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: orange;
+                color: white;
+                margin-left: 30%;
+                margin-right: 30%;
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            h3:hover {
+                background-color: darkorange;
+            }
+            h2 {
+                text-align: center;
+                font-family: Playwrite DK Loopet, Cursive;
+                padding-left: 15%;
+                padding-right: 15%;
+            }
+            h1 {
+                font-size: 100px;
+                margin-bottom: 5px;
+            }
+        </style>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>404</h1>
+        <h2>You are on the Briars and Ivy website</h2>
+        <br>
+        <h3><a href="index.html">Visit Homepage</a></h3>
+    </body>
 </html>
